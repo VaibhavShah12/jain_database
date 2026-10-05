@@ -1,0 +1,1 @@
+create table if not exists allowed_users(email_normalised text primary key, role text not null default 'user', is_active boolean not null default true, added_at timestamptz default now());
