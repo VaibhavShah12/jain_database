@@ -1,0 +1,1 @@
+export async function requireAllowedUser(){ throw new Error('Phase 1 placeholder - implement Supabase session validation and allowed_users lookup'); }
