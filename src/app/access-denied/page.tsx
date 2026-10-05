@@ -1,0 +1,1 @@
+export default function AccessDeniedPage(){return <main className="card"><h1>Access denied</h1><p className="error">Your Google account is authenticated but is not approved for this application.</p><p className="muted">Contact the administrator to be added to the allow-list.</p><a href="/login">Return to sign in</a></main>;}
